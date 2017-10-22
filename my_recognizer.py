@@ -30,16 +30,21 @@ def recognize(models: dict, test_set: SinglesData):
     #print(test_set.num_items)
     for i, word in enumerate(test_set.wordlist):
         max_score = -np.inf
+        probabilities.append({})
         for model in models:
             x_aux, lengths_aux = test_set.get_item_Xlengths(i)
             #print("WORD: ", model, x_aux, lengths_aux)
             try:
                 score = models[model].score(x_aux, lengths_aux)
+                probabilities[i][model] = score
             except:
                 pass
             if score > max_score:
                 result = (model, models[model], score)
                 max_score = score
         guesses.append(result[0])
-        probabilities.append(result[2])
+        #probabilities.append(result[2])
+    #print("Probabilities dict: ", probabilities)
+    #print("Test Set: ", test_set.wordlist)
+    #print("Guesses List: ", guesses)
     return probabilities, guesses

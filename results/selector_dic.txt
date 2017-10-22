@@ -1,0 +1,82 @@
+
+
+###################################################################################################
+dic = math.log(abs(likelihood)) + sum([math.log(abs(lh)) for lh in likelihoods]) / len(likelihoods)
+###################################################################################################
+
+features - ground
+================
+
+Training complete for FISH with 3 states with time 1.3584396530022786 seconds
+Training complete for BOOK with 15 states with time 3.2764190060006513 seconds
+Training complete for VEGETABLE with 15 states with time 2.4307707369989657 seconds
+Training complete for FUTURE with 14 states with time 3.5917731650006317 seconds
+Training complete for JOHN with 15 states with time 24.665660015998583 seconds
+
+features - nosedist
+================
+
+Training complete for FISH with 2 states with time 2.335916662999807 seconds
+Training complete for BOOK with 15 states with time 4.34849267699974 seconds
+Training complete for VEGETABLE with 15 states with time 2.7107685999981186 seconds
+Training complete for FUTURE with 14 states with time 3.807759207997151 seconds
+Training complete for JOHN with 15 states with time 32.99560851199931 seconds
+
+features - handdist
+================
+
+Training complete for FISH with 10 states with time 2.2342596580019745 seconds
+Training complete for BOOK with 15 states with time 6.391544641999644 seconds
+Training complete for VEGETABLE with 15 states with time 3.2508835320004437 seconds
+Training complete for FUTURE with 14 states with time 4.435182919998624 seconds
+Training complete for JOHN with 15 states with time 35.98742985700301 seconds
+
+features - custom (handdist + nosedist)
+================
+
+Training complete for FISH with 3 states with time 2.1971085330005735 seconds
+Training complete for BOOK with 14 states with time 3.7878471939984593 seconds
+Training complete for VEGETABLE with 15 states with time 2.8583081569995556 seconds
+Training complete for FUTURE with 15 states with time 3.3060089889986557 seconds
+Training complete for JOHN with 15 states with time 27.857283962999645 seconds
+
+
+###################################################################################################
+dic = math.log(abs(likelihood)) + sum([math.log(abs(lh)) for lh in likelihoods]) / len(likelihoods)
+###################################################################################################
+
+features - polar
+================
+
+Training complete for FISH with 10 states with time 2.090472323998256 seconds
+Training complete for BOOK with 2 states with time 3.697194185002445 seconds
+Training complete for VEGETABLE with 5 states with time 2.5091746039979625 seconds
+Training complete for FUTURE with 2 states with time 3.4480253200017614 seconds
+Training complete for JOHN with 13 states with time 32.85184382299849 seconds
+
+features - delta
+================
+
+Training complete for FISH with 2 states with time 1.0980970070013427 seconds
+Training complete for BOOK with 11 states with time 4.453202230997704 seconds
+Training complete for VEGETABLE with 12 states with time 2.2478596699984337 seconds
+Training complete for FUTURE with 5 states with time 2.9740936210000655 seconds
+Training complete for JOHN with 2 states with time 36.14756289599973 seconds
+
+features - handdist
+================
+
+Training complete for FISH with 13 states with time 2.3749769140013086 seconds
+Training complete for BOOK with 4 states with time 6.519545646999177 seconds
+Training complete for VEGETABLE with 4 states with time 3.374447162001161 seconds
+Training complete for FUTURE with 2 states with time 4.400351325999509 seconds
+Training complete for JOHN with 15 states with time 46.47902771099689 seconds
+
+features - nosedist
+================
+
+Training complete for FISH with 5 states with time 2.302510222001729 seconds
+Training complete for BOOK with 2 states with time 4.677453618001891 seconds
+Training complete for VEGETABLE with 9 states with time 2.6563352630000736 seconds
+Training complete for FUTURE with 5 states with time 4.702091636001569 seconds
+Training complete for JOHN with 15 states with time 31.636479305001558 seconds

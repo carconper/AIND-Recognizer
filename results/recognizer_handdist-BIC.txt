@@ -1,0 +1,46 @@
+**** WER = 0.7471910112359551
+Total correct: 45 out of 178
+Video  Recognized                                                    Correct
+=====================================================================================================
+    2: *PREFER *BROTHER *LOVE                                        JOHN WRITE HOMEWORK
+    7: JOHN *LIKE *POSS *MARY                                        JOHN CAN GO CAN
+   12: JOHN *GO2 *WHAT *MARY                                         JOHN CAN GO CAN
+   21: *CAN *READ *HOUSE *PARTY *JOHN *TOY *CHICKEN *GET             JOHN FISH WONT EAT BUT CAN EAT CHICKEN
+   25: JOHN *PEOPLE *CAN *TEACHER *CAR                               JOHN LIKE IX IX IX
+   28: JOHN *TOMORROW *PAST *WANT *CAN                               JOHN LIKE IX IX IX
+   30: JOHN *FRED *CORN1 *SEE *BOX                                   JOHN LIKE IX IX IX
+   36: MARY *SOMETHING-ONE *GIVE *GIVE *APPLE *POSS                  MARY VEGETABLE KNOW IX LIKE CORN1
+   40: JOHN *GIVE *SELF *SHOULD *MARY                                JOHN IX THINK MARY LOVE
+   43: JOHN *DECIDE BUY HOUSE                                        JOHN MUST BUY HOUSE
+   50: *PREFER *TELL BUY CAR *CAN                                    FUTURE JOHN BUY CAR SHOULD
+   54: JOHN *YESTERDAY *BROTHER BUY HOUSE                            JOHN SHOULD NOT BUY HOUSE
+   57: JOHN *IX *SUE MARY                                            JOHN DECIDE VISIT MARY
+   67: JOHN *JOHN *TEACHER *ARRIVE HOUSE                             JOHN FUTURE NOT BUY HOUSE
+   71: JOHN *KNOW *BOX *WHAT                                         JOHN WILL VISIT MARY
+   74: JOHN *JANA *LEAVE *SOMETHING-ONE                              JOHN NOT VISIT MARY
+   77: *HOUSE *GIVE1 *CAN                                            ANN BLAME MARY
+   84: *LAST-WEEK *HERE *CAN BOOK                                    IX-1P FIND SOMETHING-ONE BOOK
+   89: JOHN *TOY1 *SHOULD *JOHN IX *VIDEOTAPE COAT                   JOHN IX GIVE MAN IX NEW COAT
+   90: *SEARCH-FOR *IX IX *GIVE3 *MAN *NEW-YORK                      JOHN GIVE IX SOMETHING-ONE WOMAN BOOK
+   92: JOHN GIVE *CORN *GIRL *NOT BOOK                               JOHN GIVE IX SOMETHING-ONE WOMAN BOOK
+  100: *JOHN NEW *HOUSE *CHOCOLATE                                   POSS NEW CAR BREAK-DOWN
+  105: JOHN *PREFER                                                  JOHN LEG
+  107: *BLUE *GIVE2 FRIEND *FRANK *JOHN                              JOHN POSS FRIEND HAVE CANDY
+  108: *MARY *BOOK                                                   WOMAN ARRIVE
+  113: *JOHN *MOTHER *SOMETHING-ONE *SHOULD *GIVE1                   IX CAR BLUE SUE BUY
+  119: SUE *BUY1 *SUE *FINISH *EAT                                   SUE BUY IX CAR BLUE
+  122: *SHOOT *BUY *BROTHER                                          JOHN READ BOOK
+  139: JOHN *WRITE WHAT *KNOW BOOK                                   JOHN BUY WHAT YESTERDAY BOOK
+  142: JOHN *HERE *CAN *TEACHER BOOK                                 JOHN BUY YESTERDAY WHAT BOOK
+  158: *HOMEWORK JOHN *SEARCH-FOR                                    LOVE JOHN WHO
+  167: *MARY *SUE *JANA *BOX *FRANK                                  JOHN IX SAY LOVE MARY
+  171: *MARY *JOHN BLAME                                             JOHN MARY BLAME
+  174: *CAN *HOMEWORK *LOVE *BLUE *FRED                              PEOPLE GROUP GIVE1 JANA TOY
+  181: *GIVE *BROTHER                                                JOHN ARRIVE
+  184: *BOY BOY *LOVE *SELL *CORN                                    ALL BOY GIVE TEACHER APPLE
+  189: *WHO *CORN *CORN *CAR                                         JOHN GIVE GIRL BOX
+  193: *SOMETHING-ONE *MAN *CORN *WHAT                               JOHN GIVE GIRL BOX
+  199: *LOVE CHOCOLATE WHO                                           LIKE CHOCOLATE WHO
+  201: JOHN *THINK MARY *MARY *HERE *JOHN                            JOHN TELL MARY IX-1P BUY HOUSE
+In [ ]:
+
