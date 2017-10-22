@@ -1,4 +1,6 @@
+"""This module implements the recognizer"""
 import warnings
+import numpy as np
 from asl_data import SinglesData
 
 
@@ -20,6 +22,24 @@ def recognize(models: dict, test_set: SinglesData):
     warnings.filterwarnings("ignore", category=DeprecationWarning)
     probabilities = []
     guesses = []
-    # TODO implement the recognizer
-    # return probabilities, guesses
-    raise NotImplementedError
+    # DONE implement the recognizer
+    #print(test_set.sentences_index)
+    #print(test_set.wordlist, len(test_set.wordlist))
+    #print("THE MODELS: ", models)
+    #print(test_set._data)
+    #print(test_set.num_items)
+    for i, word in enumerate(test_set.wordlist):
+        max_score = -np.inf
+        for model in models:
+            x_aux, lengths_aux = test_set.get_item_Xlengths(i)
+            #print("WORD: ", model, x_aux, lengths_aux)
+            try:
+                score = models[model].score(x_aux, lengths_aux)
+            except:
+                pass
+            if score > max_score:
+                result = (model, models[model], score)
+                max_score = score
+        guesses.append(result[0])
+        probabilities.append(result[2])
+    return probabilities, guesses
